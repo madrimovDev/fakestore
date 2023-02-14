@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination{
+    bottom: 30%!important;
+    left: 15%!important;
+    display: flex;
+}
+
+.swiper-pagination span{
+    @apply bg-orange-400
+}
